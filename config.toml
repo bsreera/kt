@@ -5,7 +5,7 @@ languageCode = "en-us"
 theme = "hugo-elate-theme"
 
 [params]
-  
+
   custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
@@ -14,17 +14,17 @@ theme = "hugo-elate-theme"
   email = ""
   # Navigation
   [params.navigation]
-    brand = "Elate"
+    brand = "Kidds Ice Creams"
     home = "Home"
-    work = "Work"
-    testimonials = "Testimonials"
-    services = "Services"
+    # work = "Work"
+    # testimonials = "Testimonials"
+    # services = "Services"
     about = "About"
     contact = "Contact"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
-    
+
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
@@ -36,152 +36,150 @@ theme = "hugo-elate-theme"
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
-  
+
   # Hero section
   [params.hero]
-    title = "Do something you love."
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
- 
+    title = "Kidds Ice Creams."
+    subtitle = 'Once is not Enough'
+
   # Intro section
   # Available icons: http://simplelineicons.com/
-  [params.intro]
-
-  [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
-    img = "img_7.jpg"
-
-  [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
-
-  [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
-
-  [params.intro.video]
-    enable = true
-    title = "Watch the video"
-    icon = "icon-play2"
-    url = "https://vimeo.com/channels/staffpicks/93951774"
+  # [params.intro]
+  #
+  # [[params.intro.item]]
+  #   title = "Plan"
+  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #   url = "#"
+  #   button = "Get In Touch"
+  #   icon = "icon-bulb"
+  #   img = "img_7.jpg"
+  #
+  # [[params.intro.item]]
+  #   title = "Develop"
+  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #   url = "#"
+  #   button = "Click Me"
+  #   icon = "icon-wrench"
+  #   img = "img_8.jpg"
+  #
+  # [[params.intro.item]]
+  #   title = "Launch"
+  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #   url = "#"
+  #   button = "Why us?"
+  #   icon = "icon-rocket"
+  #   img = "img_10.jpg"
+  #
+  # [params.intro.video]
+  #   enable = true
+  #   title = "Watch the video"
+  #   icon = "icon-play2"
+  #   url = "https://vimeo.com/channels/staffpicks/93951774"
 
 
   # Work section
-  [params.work]
-    enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
-
-    [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
-
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+  # [params.work]
+    # enable = true
+    # title = "Work"
+    # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    # footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    #
+    # [[params.work.row]]
+    #   img = "work_1.jpg"
+    #   alt = "Image2"
+    #   title = "Project 1"
+    #   subtitle = "Branding"
+    #
+    # [[params.work.row]]
+    #   img = "work_2.jpg"
+    #   alt = "Image2"
+    #   title = "Project 2"
+    #   subtitle = "Design"
+    #
+    # [[params.work.row]]
+    #   img = "work_3.jpg"
+    #   alt = "Image3"
+    #   title = "Project 3"
+    #   subtitle = "Design"
+    #
+    # [[params.work.row]]
+    #   img = "work_4.jpg"
+    #   alt = "Image4"
+    #   title = "Project 4"
+    #   subtitle = "Design"
+    #
+    # [[params.work.row]]
+    #   img = "work_5.jpg"
+    #   alt = "Image5"
+    #   title = "Project 5"
+    #   subtitle = "Design"
+    #
+    # [[params.work.row]]
+    #   img = "work_6.jpg"
+    #   alt = "Image6"
+    #   title = "Project 6"
+    #   subtitle = "Design"
 
   # Testimonials section
-  [params.testimonials]
-    enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
-    
-
+  # [params.testimonials]
+    # enable = true
+    # title = "Testimonials"
+    # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    #
+    # [[params.testimonials.item]]
+    #   quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+    #   person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    #   img = "person1.jpg"
+    #   alt = "Person1"
+    #
+    # [[params.testimonials.item]]
+    #   quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+    #   person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    #   img = "person2.jpg"
+    #   alt = "Person2"
+    #
+    # [[params.testimonials.item]]
+    #   quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+    #   person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    #   img = "person3.jpg"
+    #   alt = "Person3"
 
 
   # Services section
-  [params.services]
-    enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
-
-    [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
-    [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
-
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+  # [params.services]
+    # enable = true
+    # title = "Services"
+    # description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    #
+    # [[params.services.item]]
+    #   title = "Brand &amp; Strategy"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    #   icon = "icon-anchor"
+    #
+    # [[params.services.item]]
+    #   title = "Web &amp; Interface"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    #   icon = "icon-layers2"
+    # [[params.services.item]]
+    #   title = "Photo &amp; Video"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    #   icon = "icon-video2"
+    #
+    #   [[params.services.item]]
+    #   title = "CMS &amp; eCommerce"
+    #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    #   icon = "icon-monitor"
 
   # About section
   [params.about]
     enable = true
     title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Kidds Ice Creams is an ice cream manufacturing unit located at Mysore, founded in 2000,with all the product lines that exist in the Ice Cream Dictionary."
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "Devakumar Ananthanarayana"
+      position = "Founder & CEO"
+      description = "Being true to my passion."
       img = "person1.jpg"
       alt = "Person1"
       social = [
@@ -191,9 +189,9 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "Prashant Devakumar"
+      position = "Business Management Consultant"
+      description = "Quality is our best bargain, now and forever !! "
       img = "person2.jpg"
       alt = "Person2"
       social = [
@@ -202,18 +200,6 @@ theme = "hugo-elate-theme"
         ["icon-github", "#"]
       ]
 
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
-
   # Counters section
   [params.counters]
     enable = true
@@ -221,50 +207,50 @@ theme = "hugo-elate-theme"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "Finished projects"
+      description = "Completed Deliveries"
       icon = "icon-briefcase"
       from = 0
-      to = 89
+      to = 1487
       interval = 50
-      speed = 5000
+      speed = 1000
 
     [[params.counters.item]]
-      description = "Lines of code"
+      description = "Ice creams sold"
       icon = "icon-code"
       from = 0
-      to = 2343409
+      to = 512987
       interval = 50
-      speed = 5000
+      speed = 1000
 
     [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
-      from = 0
-      to = 1302
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Happy clients"
+      description = "Happy Customers"
       icon = "icon-people"
       from = 0
       to = 52
       interval = 50
-      speed = 5000
+      speed = 1000
+
+      [[params.counters.item]]
+        description = "Jobs Created"
+        icon = "icon-cup"
+        from = 0
+        to = 30
+        interval = 50
+        speed = 1000
 
   # Contact section
   [params.contact]
     enable = true
     map = true
     title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    
+    description = "What can we do for you? From cups, cones to party orders."
+
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "256 Hebbal Industrial Area, <br> Mysuru, Karnataka 570018"],
+        ["icon-phone", "+91 821-2403232"],
+        ["icon-envelope", "kiddsicecreams@gmail.com"],
+        ["icon-globe", '<a href="http://kiddsicecreams.com" target="_blank">kiddsicecreams.com</a>']
       ]
 
     name = "Name"
@@ -276,4 +262,4 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = '&copy; Kidds Ice Creams. All Rights Reserved.'
