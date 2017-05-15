@@ -192,7 +192,7 @@ theme = "hugo-elate-theme"
       name = "Prashant Devakumar"
       position = "Business Management Consultant"
       description = "Quality is our best bargain, now and forever !! "
-      img = "person2.jpg"
+      img = "hero_profile.jpg"
       alt = "Person2"
       social = [
         ["icon-twitter", "#"],
