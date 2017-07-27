@@ -2,7 +2,6 @@ baseurl = "localhost:1313"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 title = "Kidds Ice Creams"
-
 [params]
 author = ""
 custom_css = ["css/custom1.css", "css/custom2.css"]
@@ -40,28 +39,24 @@ title = "Kidds Ice Creams."
 about = "About"
 brand = "Kidds Ice Creams"
 contact = "Contact"
-#services = "Products"
 home = "Home"
 [params.services]
-  enable = false
-  title = "Services"
-  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-  [[params.services.item]]
-    title = "Brand &amp; Strategy"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-    icon = "icon-anchor"
-
-  [[params.services.item]]
-    title = "Web &amp; Interface"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-    icon = "icon-layers2"
-  [[params.services.item]]
-    title = "Photo &amp; Video"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-    icon = "icon-video2"
-
-    [[params.services.item]]
-    title = "CMS &amp; eCommerce"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-    icon = "icon-monitor"
+description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+enable = false
+title = "Services"
+[[params.services.item]]
+description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+icon = "icon-anchor"
+title = "Brand &amp; Strategy"
+[[params.services.item]]
+description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+icon = "icon-layers2"
+title = "Web &amp; Interface"
+[[params.services.item]]
+description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+icon = "icon-video2"
+title = "Photo &amp; Video"
+[[params.services.item]]
+description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+icon = "icon-monitor"
+title = "CMS &amp; eCommerce"
