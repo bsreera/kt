@@ -1,30 +1,24 @@
 baseurl = "localhost:1313"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
-title = "Elate theme"
+title = "Kidds Ice Creams"
+
 [params]
 author = ""
 custom_css = ["css/custom1.css", "css/custom2.css"]
 description = ""
-email = ""
+email = "prashanthdevkumar@gmail.com"
 [params.about]
-description = "Kidds Ice Creams is an ice cream manufacturing unit located at Mysore, founded in 2000,with all the product lines that exist in the Ice Cream Dictionary."
+description = "Kidds Ice Creams (KIC) is an ice cream manufacturing unit located at Mysuru, India. The company was founded in 1999. Today, the company possesses its own infrastructure that includes land, building, machinery and logistics management.KIC consists of eight core employees and variable number of contract workers depending on the seasonal business environment and demand. The production facility is capable of producing two tones of ice cream per day. The organization caters its products through many distribution channels that include retail outlets, party orders and direct sales. Party orders include ice cream supplies to marriage functions and social gatherings. Direct sales involve selling the products through mobile vans (three wheeler vehicles) in the rural outskirts and public gatherings such as exhibitions and regional festivities.<br/><br/> Kidds Ice Creams has held an immaculate track record of providing superlative quality in the form of both its products and services to its esteemed customers. The products are FSSCAI (Food Safety Standard and Authority of India) certified, manufactured in pristine production environment."
 enable = true
 title = "About"
 [[params.about.item]]
-alt = "Person1"
-description = "Being true to my passion."
-img = "person1.jpg"
+alt = "Devakumar"
+description = "I graduated from the National Dairy Research Institute (NDRI) in Dairy Technology in 1979.<br/><br/>Started my career at Aavin (Tamil Nadu Co-operative Milk Producers’ Federation Limited) Ooty, Tamil Nadu and served as Assistant Manager (Dairy & Cheese) in different capacities during my tenure for 11 years and later served as Production Manager at a private ice cream manufacturing plant for 9 years before starting Kidds Ice Creams in 1999.<br/><br/>I have been in the dairy and ice cream industry for 37 years now and hold  proficiency and knowledge about the business springing from my professional experience."
+img = "hero_dad.JPG"
 name = "Devakumar Ananthanarayana"
 position = "Founder & CEO"
 social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
-[[params.about.item]]
-alt = "Person2"
-description = "Quality is our best bargain, now and forever !! "
-img = "hero_profile.jpg"
-name = "Prashant Devakumar"
-position = "Business Management Consultant"
-social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-github", "#"]]
 [params.contact]
 button = "Send message"
 description = "What can we do for you? From cups, cones to party orders."
@@ -36,38 +30,6 @@ message = "Message"
 name = "Name"
 phone = "Phone"
 title = "Get in touch"
-[params.counters]
-background = "full_image_1.jpg"
-enable = true
-title = "Stats"
-[[params.counters.item]]
-description = "Completed Deliveries"
-from = 0
-icon = "icon-briefcase"
-interval = 50
-speed = 1000
-to = 1487
-[[params.counters.item]]
-description = "Ice creams sold"
-from = 0
-icon = "icon-code"
-interval = 50
-speed = 1000
-to = 512987
-[[params.counters.item]]
-description = "Happy Customers"
-from = 0
-icon = "icon-people"
-interval = 50
-speed = 1000
-to = 52
-[[params.counters.item]]
-description = "Jobs Created"
-from = 0
-icon = "icon-cup"
-interval = 50
-speed = 1000
-to = 30
 [params.footer]
 copyright = "&copy; Kidds Ice Creams. All Rights Reserved."
 enable = true
@@ -78,4 +40,28 @@ title = "Kidds Ice Creams."
 about = "About"
 brand = "Kidds Ice Creams"
 contact = "Contact"
+#services = "Products"
 home = "Home"
+[params.services]
+  enable = true
+  title = "Services"
+  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  [[params.services.item]]
+    title = "Brand &amp; Strategy"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-anchor"
+
+  [[params.services.item]]
+    title = "Web &amp; Interface"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-layers2"
+  [[params.services.item]]
+    title = "Photo &amp; Video"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-video2"
+
+    [[params.services.item]]
+    title = "CMS &amp; eCommerce"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+    icon = "icon-monitor"
