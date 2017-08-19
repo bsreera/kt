@@ -40,8 +40,47 @@ about = "About"
 brand = "Kidds Ice Creams"
 contact = "Contact"
 home = "Home"
-work = "Gallery"
 testimonials = "Products"
+work = "Gallery"
+[params.testimonials]
+description = "You name it, we have it. Check out all the prodcuts/flavours we have to offer."
+enable = true
+title = "Products"
+[[params.testimonials.item]]
+alt = "Person1"
+img = "person1.jpg"
+person = "Sticks <span class=\"subtext\">Kids favourite</span>"
+quote = "Kulfi<br/>Mango<br/>Grape<br/>Orange<br/>Lolly"
+[[params.testimonials.item]]
+alt = "Person2"
+img = "person2.jpg"
+person = "Small Cups - 50ML <span class=\"subtext\">For those who want to try</span>"
+quote = "Vanilla<br/>Pista<br/>Butterscotch<br/>Resberry<br/>Mango"
+[[params.testimonials.item]]
+alt = "Person3"
+img = "person3.jpg"
+person = "Big Cups - 100ML <span class=\"subtext\">For those who love thier flavours</span>"
+quote = "Vanilla<br/>Pista<br/>Butterscotch<br/>Fig'O'Honey<br/>Black Current<br/>Kesar Nuts"
+[[params.testimonials.item]]
+alt = "Person1"
+img = "person1.jpg"
+person = "Novelties <span class=\"subtext\">Try something new</span>"
+quote = "Chocobar<br/>Mango Duet<br/>Resberry Duet<br/>Nutty Delite<br/>Kesar Kulfi<br/>Kidds Ball<br/>Sunday Swirl<br/>Cone Top<br/>Nutty Chocobar<br/>Mini Cone Top<br/>Straberry Ball<br/>Mango Ball<br/>Orange Duet<br/>Orange Chocobar<br/>Mango Chocobar<br/>Straberry Chocobar<br/>Mataka Kulfi<br/>Kidds Wonder<br/>Kesar Delite"
+[[params.testimonials.item]]
+alt = "Person2"
+img = "person2.jpg"
+person = "Tub - 500ML <span class=\"subtext\">Anybody having an office party?</span>"
+quote = "Vanilla<br/>Pista<br/>Butterscotch<br/>Rasberry<br/>Straberry<br/>Choco Ripple<br/>Fig'O'Honey<br/>Black Current<br/>Chocolate<br/>Mango<br/>Kesar Nuts<br/>Orange"
+[[params.testimonials.item]]
+alt = "Person3"
+img = "person3.jpg"
+person = "Family Pack - 500ML <span class=\"subtext\">Friends at your place?</span>"
+quote = "Vanilla<br/>Pista<br/>Butterscotch<br/>Resberry"
+[[params.testimonials.item]]
+alt = "Person5"
+img = "person4.jpg"
+person = "Family Pack - 1000ML <span class=\"subtext\">Family get together?</span>"
+quote = "Vanilla<br/>Pista<br/>Butterscotch<br/>Rasberry<br/>Straberry<br/>Choco Ripple<br/>Fig'O'Honey<br/>Black Current<br/>Chocolate<br/>Mango<br/>Kesar Nuts<br/>Kidds Special<br/>3 X 1 Plain"
 [params.work]
 description = ""
 enable = true
@@ -97,50 +136,3 @@ alt = "Image10"
 img = "g10.jpg"
 subtitle = ""
 title = ""
-
-[params.testimonials]
-  enable = true
-  title = "Products"
-  description = "You name it, we have it. Check out all the prodcuts/flavours we have to offer."
-
-  [[params.testimonials.item]]
-    quote = "Kulfi<br/>Mango<br/>Grape<br/>Orange<br/>Lolly"
-    person = 'Sticks <span class="subtext">Kids favourite</span>'
-    img = "person1.jpg"
-    alt = "Person1"
-
-  [[params.testimonials.item]]
-    quote = "Vanilla<br/>Pista<br/>Butterscotch<br/>Resberry<br/>Mango"
-    person = 'Small Cups - 50ML <span class="subtext">For those who want to try</span>'
-    img = "person2.jpg"
-    alt = "Person2"
-
-  [[params.testimonials.item]]
-    quote = "Vanilla<br/>Pista<br/>Butterscotch<br/>Fig'O'Honey<br/>Black Current<br/>Kesar Nuts"
-    person = 'Big Cups - 100ML <span class="subtext">For those who love thier flavours</span>'
-    img = "person3.jpg"
-    alt = "Person3"
-
-  [[params.testimonials.item]]
-    quote = "Chocobar<br/>Mango Duet<br/>Resberry Duet<br/>Nutty Delite<br/>Kesar Kulfi<br/>Kidds Ball<br/>Sunday Swirl<br/>Cone Top<br/>Nutty Chocobar<br/>Mini Cone Top<br/>Straberry Ball<br/>Mango Ball<br/>Orange Duet<br/>Orange Chocobar<br/>Mango Chocobar<br/>Straberry Chocobar<br/>Mataka Kulfi<br/>Kidds Wonder<br/>Kesar Delite"
-    person = 'Novelties <span class="subtext">Try something new</span>'
-    img = "person1.jpg"
-    alt = "Person1"
-
-  [[params.testimonials.item]]
-    quote = "Vanilla<br/>Pista<br/>Butterscotch<br/>Rasberry<br/>Straberry<br/>Choco Ripple<br/>Fig'O'Honey<br/>Black Current<br/>Chocolate<br/>Mango<br/>Kesar Nuts<br/>Orange"
-    person = 'Tub - 500ML <span class="subtext">Anybody having an office party?</span>'
-    img = "person2.jpg"
-    alt = "Person2"
-
-  [[params.testimonials.item]]
-    quote = "Vanilla<br/>Pista<br/>Butterscotch<br/>Resberry"
-    person = 'Family Pack - 500ML <span class="subtext">Friends at your place?</span>'
-    img = "person3.jpg"
-    alt = "Person3"
-
-  [[params.testimonials.item]]
-    quote = "Vanilla<br/>Pista<br/>Butterscotch<br/>Rasberry<br/>Straberry<br/>Choco Ripple<br/>Fig'O'Honey<br/>Black Current<br/>Chocolate<br/>Mango<br/>Kesar Nuts<br/>Kidds Special<br/>3 X 1 Plain"
-    person = 'Family Pack - 1000ML <span class="subtext">Family get together?</span>'
-    img = "person4.jpg"
-    alt = "Person5"
