@@ -76,3 +76,23 @@ alt = "Image6"
 img = "g1.jpg"
 subtitle = ""
 title = ""
+[[params.work.row]]
+alt = "Image7"
+img = "g7.jpg"
+subtitle = ""
+title = ""
+[[params.work.row]]
+alt = "Image9"
+img = "g9.jpg"
+subtitle = ""
+title = ""
+[[params.work.row]]
+alt = "Image8"
+img = "g8.jpg"
+subtitle = ""
+title = ""
+[[params.work.row]]
+alt = "Image10"
+img = "g10.jpg"
+subtitle = ""
+title = ""
