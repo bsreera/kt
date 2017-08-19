@@ -43,7 +43,7 @@ home = "Home"
 testimonials = "Products"
 work = "Gallery"
 [params.testimonials]
-description = "You name it, we have it. Check out all the prodcuts/flavours we have to offer."
+description = "You name it, we have it. Check out all the products/flavours we have to offer."
 enable = true
 title = "Products"
 [[params.testimonials.item]]
